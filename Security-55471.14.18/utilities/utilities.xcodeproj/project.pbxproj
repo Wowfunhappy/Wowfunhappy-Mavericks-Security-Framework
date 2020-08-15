@@ -414,7 +414,6 @@
 		E742A0A714E343E70052A486 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
@@ -432,13 +431,13 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../Headers\"/**";
 			};
 			name = Debug;
 		};
 		E742A0A814E343E70052A486 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
@@ -450,6 +449,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../Headers\"/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -457,7 +457,6 @@
 		E742A0AA14E343E70052A486 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -467,14 +466,12 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "/Users/Jonathan/Desktop/Security-Wowfunhappy/Headers/**";
 			};
 			name = Debug;
 		};
 		E742A0AB14E343E70052A486 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -484,7 +481,6 @@
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "/Users/Jonathan/Desktop/Security-Wowfunhappy/Headers/**";
 			};
 			name = Release;
 		};

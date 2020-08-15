@@ -779,6 +779,7 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/security_utilities;
 				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "/Users/Jonathan/Desktop/Security-Wowfunhappy/Headers/**";
 				WARNING_CFLAGS = (
 					"-Wno-error=#warnings",
 					"-Wmost",
@@ -797,6 +798,7 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/security_utilities;
 				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "/Users/Jonathan/Desktop/Security-Wowfunhappy/Headers/**";
 				WARNING_CFLAGS = (
 					"-Wno-error=#warnings",
 					"-Wmost",

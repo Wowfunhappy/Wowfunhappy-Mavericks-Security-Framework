@@ -3213,15 +3213,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4C0F6FAF1985879300178101 /* sectask */ = {
-			isa = PBXGroup;
-			children = (
-				4C0F6F861985877800178101 /* SecEntitlements.h */,
-			);
-			name = sectask;
-			path = ../sectask;
-			sourceTree = "<group>";
-		};
 		37A7CEAC197DB8FA00926CE8 /* codesign_tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -5493,6 +5484,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 181EA423146D4A2A00A6D320 /* debug.xcconfig */;
 			buildSettings = {
+				USER_HEADER_SEARCH_PATHS = "/Users/Jonathan/Desktop/Security-Wowfunhappy/Headers/**";
 			};
 			name = Debug;
 		};
@@ -5500,6 +5492,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 181EA425146D4A2A00A6D320 /* release.xcconfig */;
 			buildSettings = {
+				USER_HEADER_SEARCH_PATHS = "/Users/Jonathan/Desktop/Security-Wowfunhappy/Headers/**";
 			};
 			name = Release;
 		};

@@ -24,7 +24,7 @@
 #include <xpc/private.h>
 #include <syslog.h>
 #include <sys/param.h>
-#include <sandbox.h>
+#include <sandbox/private.h>
 #include <dlfcn.h>
 #include <sysexits.h>
 #include <Security/Security.h>

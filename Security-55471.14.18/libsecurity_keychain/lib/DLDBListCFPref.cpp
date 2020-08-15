@@ -42,6 +42,9 @@
 #include <syslog.h>
 #include <sandbox.h>
 
+//Wowfunhappy added
+#include <sandbox/private.h>
+
 dispatch_once_t AppSandboxChecked;
 xpc_object_t KeychainHomeFromXPC;
 

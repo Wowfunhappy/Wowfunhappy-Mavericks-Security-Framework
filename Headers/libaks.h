@@ -11,6 +11,10 @@ extern "C" {
 // FIXME: I have no idea what these are for, so they are 0 for now
 #define session_keybag_handle 0
 #define device_keybag_handle 0
+    
+//Added by Wowfunhappy. I don't know what these do either.
+#define bad_keybag_handle 0
+#define kAppleKeyStoreAsymmetricBackupBag 0
 
 typedef uint32_t keybag_state_t;
 typedef int32_t keybag_handle_t;

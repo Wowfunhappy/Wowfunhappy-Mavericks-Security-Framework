@@ -1,13 +1,19 @@
-#ifndef __CORESERVICESPRIV_H__
-#define __CORESERVICESPRIV_H__
+#ifndef CORESERVICESPRIV_H_
+#define CORESERVICESPRIV_H_
 
-#include <CoreFoundation/CoreFoundation.h>
-#include <Security/Secbase.h>
+#include <CoreFoundation/CFString.h>
+#include <CoreFoundation/CFURLPriv.h>
 
-extern CFStringRef _CSBackToMyMacCopyDomain();
+#include <CoreServices/CoreServices.h>
+#include <LaunchServices/LaunchServicesPriv.h>
 
-extern CFStringRef _CSCopyKerberosPrincipalForCertificate(SecCertificateRef cert);
+CF_EXTERN_C_BEGIN
 
-extern CFStringRef _CSCopyAppleIDAccountForAppleIDCertificate(SecCertificateRef cert, CFTypeRef thing);
+Boolean _CSCheckFix(CFStringRef str);
+
+// Also assumed
+#define QTN_FLAG_ASSESSMENT_OK 1
+
+CF_EXTERN_C_END
 
 #endif

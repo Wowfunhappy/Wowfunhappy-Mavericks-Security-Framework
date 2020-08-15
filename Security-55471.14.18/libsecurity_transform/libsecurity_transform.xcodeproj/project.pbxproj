@@ -475,7 +475,7 @@
 			name = "unit-tests";
 			productName = "unit-tests";
 			productReference = 4C738257112DF65200EA003B /* unit-tests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		4CA1FEBD052A3C8100F22E42 /* libsecurity_transform */ = {
 			isa = PBXNativeTarget;
@@ -811,6 +811,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 18BBC73A1471F6DF00F2B224 /* debug.xcconfig */;
 			buildSettings = {
+				USER_HEADER_SEARCH_PATHS = "/Users/Jonathan/Desktop/Security-Wowfunhappy/Headers/**";
 			};
 			name = Debug;
 		};
@@ -818,6 +819,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 18BBC73C1471F6DF00F2B224 /* release.xcconfig */;
 			buildSettings = {
+				USER_HEADER_SEARCH_PATHS = "/Users/Jonathan/Desktop/Security-Wowfunhappy/Headers/**";
 			};
 			name = Release;
 		};

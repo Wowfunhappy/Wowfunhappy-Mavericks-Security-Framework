@@ -780,13 +780,6 @@
 				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/security_utilities;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "/Users/Jonathan/Desktop/Security-Wowfunhappy/Headers/**";
-				WARNING_CFLAGS = (
-					"-Wno-error=#warnings",
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
 			};
 			name = Debug;
 		};
@@ -799,13 +792,6 @@
 				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/security_utilities;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "/Users/Jonathan/Desktop/Security-Wowfunhappy/Headers/**";
-				WARNING_CFLAGS = (
-					"-Wno-error=#warnings",
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
 			};
 			name = Release;
 		};

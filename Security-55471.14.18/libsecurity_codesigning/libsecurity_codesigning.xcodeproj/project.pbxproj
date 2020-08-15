@@ -1736,6 +1736,7 @@
 					/usr/local/include,
 				);
 				TEMPDIR = "$(BUILT_PRODUCTS_DIR)/cstemp";
+				USER_HEADER_SEARCH_PATHS = "/Users/Jonathan/Desktop/Security-Wowfunhappy/Headers/**";
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -1764,6 +1765,7 @@
 					/usr/local/include,
 				);
 				TEMPDIR = "$(BUILT_PRODUCTS_DIR)/cstemp";
+				USER_HEADER_SEARCH_PATHS = "/Users/Jonathan/Desktop/Security-Wowfunhappy/Headers/**";
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",

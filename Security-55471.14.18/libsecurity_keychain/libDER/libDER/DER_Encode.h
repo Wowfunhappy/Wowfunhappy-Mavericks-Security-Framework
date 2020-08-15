@@ -6,7 +6,7 @@
  * Created Dec. 2 2005 by dmitch
  */
  
-#ifndef	_DER_ENCCODE_H_
+#ifndef	_DER_ENCODE_H_
 #define _DER_ENCODE_H_
 
 #ifdef __cplusplus

@@ -456,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 182BB3A0146F1A68000BF1F3 /* lib.xcconfig */;
 			buildSettings = {
+				USER_HEADER_SEARCH_PATHS = "/Users/Jonathan/Desktop/Security-Wowfunhappy/Headers/**";
 			};
 			name = Debug;
 		};
@@ -463,6 +464,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 182BB3A0146F1A68000BF1F3 /* lib.xcconfig */;
 			buildSettings = {
+				USER_HEADER_SEARCH_PATHS = "/Users/Jonathan/Desktop/Security-Wowfunhappy/Headers/**";
 			};
 			name = Release;
 		};

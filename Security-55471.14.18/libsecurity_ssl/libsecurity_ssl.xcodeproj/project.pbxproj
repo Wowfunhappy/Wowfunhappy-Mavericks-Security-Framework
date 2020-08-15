@@ -59,8 +59,6 @@
 		0C6C642115D5840700BC68CD /* privkey-1.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C6C641E15D5840700BC68CD /* privkey-1.h */; };
 		0C6C642315D5938E00BC68CD /* ssl-utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C6C634215D1BDCF00BC68CD /* ssl-utils.c */; };
 		0C6C642415D5939A00BC68CD /* ssl-utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 0C6C634215D1BDCF00BC68CD /* ssl-utils.c */; };
-		0CADC66716769B7C000A70D4 /* ssl_regressions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CADC66616769B7C000A70D4 /* ssl_regressions.h */; };
-		0CC954F1161A62AE005D3D4A /* ssl-44-crashes.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CC954F0161A62AE005D3D4A /* ssl-44-crashes.c */; };
 		0CCA414515C75863002AEC4C /* ssl3RecordCallouts.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CCA413515C75863002AEC4C /* ssl3RecordCallouts.c */; };
 		0CCA414615C75863002AEC4C /* sslCipherSpecs.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CCA413615C75863002AEC4C /* sslCipherSpecs.c */; };
 		0CCA414815C75863002AEC4C /* sslRand.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CCA413815C75863002AEC4C /* sslRand.c */; };
@@ -920,6 +918,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BE6A959D14E3700A00C158E0 /* debug.xcconfig */;
 			buildSettings = {
+				USER_HEADER_SEARCH_PATHS = "/Users/Jonathan/Desktop/Security-Wowfunhappy/Headers/**";
 			};
 			name = Debug;
 		};
@@ -927,6 +926,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BE6A959F14E3700A00C158E0 /* release.xcconfig */;
 			buildSettings = {
+				USER_HEADER_SEARCH_PATHS = "/Users/Jonathan/Desktop/Security-Wowfunhappy/Headers/**";
 			};
 			name = Release;
 		};

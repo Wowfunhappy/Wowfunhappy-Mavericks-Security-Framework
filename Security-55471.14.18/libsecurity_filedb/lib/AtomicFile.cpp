@@ -34,7 +34,7 @@
 #include <sys/time.h>
 #include <sys/mman.h>
 #include <copyfile.h>
-#include <sandbox.h>
+#include <sandbox/private.h>
 #include <set>
 
 #define kAtomicFileMaxBlockSize INT_MAX

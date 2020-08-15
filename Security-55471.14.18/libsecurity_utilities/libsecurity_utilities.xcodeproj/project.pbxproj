@@ -776,7 +776,6 @@
 			baseConfigurationReference = 181EA3EB146D2A5F00A6D320 /* debug.xcconfig */;
 			buildSettings = {
 				EXPORTED_SYMBOLS_FILE = "";
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/security_utilities;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "/Users/Jonathan/Desktop/Security-Wowfunhappy/Headers/**";
@@ -788,7 +787,6 @@
 			baseConfigurationReference = 181EA3ED146D2A5F00A6D320 /* release.xcconfig */;
 			buildSettings = {
 				EXPORTED_SYMBOLS_FILE = "";
-				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include/security_utilities;
 				SKIP_INSTALL = NO;
 				USER_HEADER_SEARCH_PATHS = "/Users/Jonathan/Desktop/Security-Wowfunhappy/Headers/**";
@@ -799,6 +797,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 181EA3EC146D2A5F00A6D320 /* lib.xcconfig */;
 			buildSettings = {
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 			};
 			name = Debug;
 		};
@@ -806,6 +805,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 181EA3EC146D2A5F00A6D320 /* lib.xcconfig */;
 			buildSettings = {
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 			};
 			name = Release;
 		};

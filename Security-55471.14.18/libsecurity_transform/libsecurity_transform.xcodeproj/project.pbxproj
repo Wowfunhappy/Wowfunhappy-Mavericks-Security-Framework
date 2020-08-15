@@ -772,6 +772,7 @@
 			baseConfigurationReference = 18BBC73B1471F6DF00F2B224 /* lib.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/lib/system,
@@ -792,6 +793,7 @@
 			baseConfigurationReference = 18BBC73B1471F6DF00F2B224 /* lib.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/lib/system,

@@ -285,6 +285,7 @@
 			baseConfigurationReference = 184460CE146E7B7B00B12992 /* lib.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				WARNING_CFLAGS = (
 					"$(inherited)",
 					"-Wno-error=overloaded-virtual",
@@ -297,6 +298,7 @@
 			baseConfigurationReference = 184460CE146E7B7B00B12992 /* lib.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				WARNING_CFLAGS = (
 					"$(inherited)",
 					"-Wno-error=overloaded-virtual",

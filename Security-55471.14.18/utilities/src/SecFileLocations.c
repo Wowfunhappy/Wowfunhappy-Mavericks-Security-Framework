@@ -44,6 +44,12 @@
 
 #include "SecFileLocations.h"
 
+//Wowfunhappy Added
+#include <limits.h>
+#include <errno.h>
+#define MAXPATHLEN 1024
+
+
 static CFURLRef sCustomHomeURL = NULL;
 
 static CFURLRef SecCopyHomeURL(void)

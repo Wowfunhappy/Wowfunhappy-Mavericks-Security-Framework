@@ -47,7 +47,6 @@ enum sandbox_filter_type {
 	SANDBOX_FILTER_LOCAL_NAME,
 	SANDBOX_FILTER_APPLEEVENT_DESTINATION,
 	SANDBOX_FILTER_RIGHT_NAME,
-	SANDBOX_FILTER_KEXT_BUNDLE_ID,
 };
 
 extern const enum sandbox_filter_type SANDBOX_CHECK_NO_REPORT __attribute__((weak_import));

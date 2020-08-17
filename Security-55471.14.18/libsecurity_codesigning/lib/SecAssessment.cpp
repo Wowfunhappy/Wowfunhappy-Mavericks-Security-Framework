@@ -158,7 +158,7 @@ SecAssessmentRef SecAssessmentCreate(CFURLRef path,
 	SYSPOLICY_ASSESS_API(cfString(path).c_str(), int(type), flags);
 
 	try {
-		if (__esp_enabled() && (flags & kSecAssessmentFlagDirect)) {
+		if (/*__esp_enabled() &&*/ (flags & kSecAssessmentFlagDirect)) {
 			CFTemp<CFDictionaryRef> dict("{path=%O, flags=%d, context=%O, override=%d}", path, flags, context, overrideAssessment());
 			esp_do_check("cs-assessment-evaluate", dict);
 		}
@@ -196,7 +196,7 @@ SecAssessmentRef SecAssessmentCreate(CFURLRef path,
 		cfadd(result, "{%O=#F}", kSecAssessmentAssessmentVerdict);
 	}
 
-	if (__esp_enabled() && (flags & kSecAssessmentFlagDirect)) {
+	if (/*__esp_enabled() &&*/ (flags & kSecAssessmentFlagDirect)) {
 		CFTemp<CFDictionaryRef> dict("{path=%O, flags=%d, context=%O, override=%d, result=%O}", path, flags, context, overrideAssessment(), (CFDictionaryRef)result);
 		__esp_notify_ns("cs-assessment-evaluate", (void *)(CFDictionaryRef)dict);
 	}
@@ -427,7 +427,7 @@ CFDictionaryRef SecAssessmentCopyUpdate(CFTypeRef target,
 	CFRef<CFDictionaryRef> result;
 
 	if (flags & kSecAssessmentFlagDirect) {
-		if (__esp_enabled()) {
+		if (true /*__esp_enabled()*/) {
 			CFTemp<CFDictionaryRef> dict("{target=%O, flags=%d, context=%O}", target, flags, context);
 			OSStatus esp_result = __esp_check_ns("cs-assessment-update", (void *)(CFDictionaryRef)dict);
 			if (esp_result != noErr)
@@ -441,7 +441,7 @@ CFDictionaryRef SecAssessmentCopyUpdate(CFTypeRef target,
 		result = xpcEngineUpdate(target, flags, ctx);
 	}
 
-	if (__esp_enabled() && (flags & kSecAssessmentFlagDirect)) {
+	if (/*__esp_enabled() &&*/ (flags & kSecAssessmentFlagDirect)) {
 		CFTemp<CFDictionaryRef> dict("{target=%O, flags=%d, context=%O, outcome=%O}", target, flags, context, (CFDictionaryRef)result);
 		__esp_notify_ns("cs-assessment-update", (void *)(CFDictionaryRef)dict);
 	}
